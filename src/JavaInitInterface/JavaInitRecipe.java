@@ -1,6 +1,8 @@
-public abstract class JavaInitRecipe {
+package JavaInitInterface;
 
-    public abstract String genFileContent();
+public interface JavaInitRecipe {
 
-    public abstract String genFilePath();
+    public String genFileContent();
+
+    public String genFilePath();
 }

@@ -1,4 +1,4 @@
-import JavaInitInterface.JavaInitHelloWorld;
+import CodegenExample.HelloWorld.JavaInitHelloWorld;
 import JavaInitInterface.JavaInitRecipe;
 
 public class JavaInitRecipeFactory {

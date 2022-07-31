@@ -83,6 +83,7 @@ public class JavaInitReplacerTest extends TestCase {
             ans += line + "\n";
             line = reader.readLine();
         }
+        reader.close();
 
         return ans;
     }

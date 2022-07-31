@@ -16,5 +16,6 @@ public class JavaCodegen {
         FileOutputStream file = new FileOutputStream(filePath);
         file.write(codeToAdd.getBytes());
         file.close();
+
     }
 }

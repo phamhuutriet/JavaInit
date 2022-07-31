@@ -1,0 +1,7 @@
+public class __CLASS_NAME__ {
+
+    public static async function main(String[] args) {
+
+        String __PARAMETER_NAME__ = "new string";
+    }
+}

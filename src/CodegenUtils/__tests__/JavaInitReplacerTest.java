@@ -65,8 +65,8 @@ public class JavaInitReplacerTest extends TestCase {
 
     @Test
     public void testReplaceAllText1() throws Exception {
-        String filePath = "/Users/macos/LearningSpace/JavaCodegen/src/CodegenUtils/__tests__/testText1.txt";
-        String answerPath = "/Users/macos/LearningSpace/JavaCodegen/src/CodegenUtils/__tests__/testText1Ans.txt";
+        String filePath = "/Users/littlepanda312/JavaInit/JavaInit/src/CodegenUtils/__tests__/testText1.txt";
+        String answerPath = "/Users/littlepanda312/JavaInit/JavaInit/src/CodegenUtils/__tests__/testText1Ans.txt";
         Map<String, String> parametersDict = Map.ofEntries(Map.entry("__CLASS_NAME__", "TestClass"),
                 Map.entry("__PARAMETER_NAME__", "testString"));
 

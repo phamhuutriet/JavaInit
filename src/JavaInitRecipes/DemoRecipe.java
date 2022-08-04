@@ -1,10 +1,11 @@
 package JavaInitRecipes;
 import java.util.Map;
 import CodegenUtils.JavaInitReplacer;
+import JavaInitInterface.JavaInitRecipe;
 import CodegenUtils.JavaCodegen;
 
 
-public class DemoRecipe {
+public class DemoRecipe implements JavaInitRecipe{
   String classname, message;
 
   public DemoRecipe(String classname, String message) {
@@ -25,6 +26,7 @@ public class DemoRecipe {
         Map.ofEntries(Map.entry("__CLASS_NAME__", this.classname), Map.entry("__MESSAGE__", this.message)));
   }
   
+  @Override
   public void genRun() throws Exception {
     JavaCodegen.writeFile(this.helloWorldCodegenContent(), this.HelloWorldDestinePath());
   }
